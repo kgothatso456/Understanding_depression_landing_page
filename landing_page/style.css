@@ -1,0 +1,185 @@
+*{
+    font-family: Helvetica, sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.nav{
+    text-align: right;
+    flex-grow: 1;
+    align-items:center;
+    word-spacing: 16px;
+    background-color: white;
+}
+a{
+    transition: 0,3s;
+    text-decoration: none;
+    font-size: small;
+    color: black;
+    font-size: 16px;
+}
+a:hover{
+    border: 2px solid rgb(24, 43, 30);
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 2px 1px 3px rgb(6, 3, 17);
+    color: rgb(18, 38, 66);
+    cursor: pointer;
+}
+.title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: white;
+}
+header{
+    top: 0;
+    height: 50px;
+    overflow: hidden;
+    display: flex!important;
+    align-items: center;
+    width: 100%;
+    font-size: large;
+    padding: 24px;
+    margin: 10px;
+    position: sticky;
+    z-index: 2;
+    background-color: white;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: white;
+}
+.container{
+    text-align: center;
+    background: url(.bg-video) no-repeat scroll 0 0 fixed;
+    z-index: 1;
+    background-size: cover;
+    margin: 5px;
+    background: linear-gradient(to bottom, #FFFFFF, #CCCCCC);
+
+}
+.bg-video{
+    border: 1px solid black;
+    padding: 0 110px;
+    border-radius: 12px ;
+}
+
+.btn-1{
+    position: absolute;
+    bottom: 8%;
+    width: 200px;
+    z-index: 1;
+    padding: 16px;
+    font-size: large;
+    border: 1px solid rgb(30, 54, 38);
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: rgb(21, 82, 41);
+    transition: 200ms;
+    opacity: 0.6;
+}
+h1{
+    position: absolute;
+    bottom: 75%;
+    font-weight: 400;
+    font-size: 60px;
+    opacity: 0.9;
+    background-color: transparent;
+    color: rgb(21, 82, 41);
+}
+small{
+    position: absolute;
+    bottom: 20%;
+    opacity: 0.9;
+    background-color: transparent;
+    color: rgb(21, 82, 41);
+    font-size: larger;
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color: rgb(110, 108, 108);
+    opacity: 0.5;
+    color: rgb(18, 38, 66);
+    font-weight: bold;
+    border: 2px solid rgb(24, 43, 30);
+}
+#about, #causes, #symptoms, #resources, #contact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin: 40px;
+    border: 1px solid black;
+}
+
+.para{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(24, 43, 30);
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+form{
+    color: rgb(24, 43, 30);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+.box, #msg{
+    border: 1px solid rgb(6, 3, 17);
+    border-radius: 12px;
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f2f2f2;;
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgb(30, 54, 38);
+}
+#msg{
+    width: 400px;
+    height: 120px;
+}
+.submit{
+    color: rgb(24, 43, 30);
+    font-size: 15px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+}
+.submit:hover{
+    background-color: rgb(56, 61, 68);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgb(30, 54, 38);
+}
+section p a{
+    color: rgb(18, 38, 66);
+    transition: 0.3s;
+}
+section p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgb(30, 54, 38);
+    background-color: rgb(30, 54, 38);
+    color: white;
+
+}
