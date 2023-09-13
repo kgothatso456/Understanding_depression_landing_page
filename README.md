@@ -7,6 +7,7 @@ This landing page serves as a platform to raise awareness about depression and h
 The landing page includes the following features:
 
 - Information about depression, its symptoms, and its causes
+- A check-in button thats takes you to the resources information if you are not okay
 - A section that provides insights into ways of coping with depression
 - Links to resources where one can seek help and support 
 
